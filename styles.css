@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+}
+
+header {
+    background-color: #00796b;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #004d40;
+}
+
+.section {
+    padding: 50px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-description {
+    max-width: 600px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.section-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.video-container {
+    max-width: 600px;
+    margin-left: 20px;
+    background-color: #b2dfdb;
+    padding: 
